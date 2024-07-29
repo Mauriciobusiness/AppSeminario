@@ -1,0 +1,34 @@
+ion-content {
+  --background: #f0f0f5;
+
+  ion-grid {
+    padding: 10px;
+  }
+
+  ion-card {
+    text-align: center;
+    margin: 5px 0; // Reducir el margen vertical
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+
+    ion-card-header {
+      background: #ffffff;
+      padding: 15px; // Reducir el padding
+      border-bottom: 1px solid #dcdcdc;
+
+      ion-icon {
+        font-size: 30px; // Reducir el tamaño del icono
+        color: #4a90e2;
+      }
+    }
+
+    ion-card-content {
+      background: #ffffff;
+      padding: 15px; // Reducir el padding
+      font-size: 14px; // Reducir el tamaño de la fuente
+      font-weight: bold;
+      color: #333;
+    }
+  }
+}

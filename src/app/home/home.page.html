@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons><ion-menu-button></ion-menu-button></ion-buttons><ion-title>AppSeminario</ion-title>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" routerLink="/intro">
+        <ion-card>
+          <ion-card-header>
+            <ion-icon name="return-up-back-outline"></ion-icon>
+          </ion-card-header>
+          <ion-card-content>
+            Volver a la intro
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6">
+        <ion-card (click)="openArtistModal()">
+          <ion-card-header>
+            <ion-icon name="people-circle-outline"></ion-icon>
+          </ion-card-header>
+          <ion-card-content>
+            Artistas
+          </ion-card-content>
+        </ion-card>
+      </ion-col>      
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-icon name="body" size="large"></ion-icon>
+          </ion-card-header>
+          <ion-card-content>
+            Mi actividad
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-icon name="clipboard" size="large"></ion-icon>
+          </ion-card-header>
+          <ion-card-content>
+            Datos interesantes
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        <ion-card>
+          <ion-card-header>
+            <ion-icon name="help-circle" size="large"></ion-icon>
+          </ion-card-header>
+          <ion-card-content>
+            Soporte
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
