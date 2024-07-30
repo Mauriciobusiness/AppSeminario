@@ -24,7 +24,7 @@ Una breve descripción de la aplicación, sus funcionalidades y propósito.
 1. **Clonar el repositorio:**
 
    ```bash
-   git clone https://github.com/DeisonBM/DeisonBM.git
+   git clone https://github.com/Mauriciobusiness/AppSeminario.git
    ```
 
 2. **Instalar dependencias:**
