@@ -30,7 +30,7 @@ Una breve descripción de la aplicación, sus funcionalidades y propósito.
 2. **Instalar dependencias:**
 
    ```bash
-   cd nombre-del-proyecto
+   cd AppSeminario
    npm install
    ```
 
@@ -79,7 +79,3 @@ Si deseas contribuir, por favor sigue estos pasos:
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
-
-## Contacto
-
-Para cualquier pregunta o comentario, puedes contactarme a través de mi [perfil de GitHub](https://github.com/DeisonBM/DeisonBM).
